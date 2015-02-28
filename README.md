@@ -63,10 +63,11 @@ configuration relevant for your application.
 config 目录下app.php  中配置 Datasources 数组 中的default 改成自己的数据库用户名和密码设置值
 
 4. 数据库如果没有设置密码 修改方式 
- 进入msyql 命令行
- use mysql 
- update user set password = PASSWORD(你的密码)  where user='root' (也可以是其他的用户 ，这里是方便本机配置)
- flush privileges
+````
+1. 进入msyql 命令行
+2. use mysql 
+3. update user set password = PASSWORD(你的密码)  where user='root' (也可以是其他的用户 ，这里是方便本机配置)
+4. flush privileges
  
 #其他说明  
 cakephp 官方入门实例
