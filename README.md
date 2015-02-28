@@ -28,4 +28,36 @@ configuration relevant for your application.
 
 # 使用方法 
 ````
-建立数据库 cake_bookmarks 并且导入 
+建立数据库 cake_bookmarks 并且导入
+
+#服务器配置
+1. nginx 配置
+ location / {
+            root  E:/cakeblog/webroot; # 网站根目录根据自己的选定
+            index  index.html index.htm index.php ;
+			if (!-e $request_filename){
+				rewrite ^/(.*) /index.php last;
+			}
+ }
+ 
+ 2. apache 配置
+  根目录需要有htaccess文件
+  开启虚拟目录
+  然后配置虚拟目录指向
+  <VirtualHost *:80>
+    ServerName report.xdf.cn
+    DocumentRoot E:/cakeblog/webroot;
+    <Directory E:/cakeblog/webroot;> 
+        Options FollowSymLinks 
+        AllowOverride None
+        Options +indexes
+        Allowoverride all
+    </Directory> 
+    
+</VirtualHost>
+  
+
+#其他说明 
+cakephp 官方入门实例
+
+
