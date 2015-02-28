@@ -1,0 +1,237 @@
+2015-02-27 07:04:59 Notice: Notice (8): Object of class Cake\I18n\Time could not be converted to int in [E:\cakeblog\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Type\IntegerType::toDatabase() - CORE\src\Database\Type\IntegerType.php, line 40
+Cake\Database\Statement\StatementDecorator::cast() - CORE\src\Database\TypeConverterTrait.php, line 37
+Cake\Database\Statement\PDOStatement::bindValue() - CORE\src\Database\Statement\PDOStatement.php, line 70
+Cake\Database\Statement\StatementDecorator::bindValue() - CORE\src\Database\Statement\StatementDecorator.php, line 96
+Cake\Database\Log\LoggingStatement::bindValue() - CORE\src\Database\Log\LoggingStatement.php, line 96
+Cake\Database\Statement\StatementDecorator::bind() - CORE\src\Database\Statement\StatementDecorator.php, line 279
+Cake\Database\ValueBinder::attachTo() - CORE\src\Database\ValueBinder.php, line 125
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 273
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 174
+Cake\ORM\Table::_insert() - CORE\src\ORM\Table.php, line 1424
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1347
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1290
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 561
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1291
+App\Controller\BookmarksController::add() - APP/Controller\BookmarksController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 07:04:59 Notice: Notice (8): Object of class Cake\I18n\Time could not be converted to int in [E:\cakeblog\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Type\IntegerType::toDatabase() - CORE\src\Database\Type\IntegerType.php, line 40
+Cake\Database\Statement\StatementDecorator::cast() - CORE\src\Database\TypeConverterTrait.php, line 37
+Cake\Database\Log\LoggingStatement::bindValue() - CORE\src\Database\Log\LoggingStatement.php, line 101
+Cake\Database\Statement\StatementDecorator::bind() - CORE\src\Database\Statement\StatementDecorator.php, line 279
+Cake\Database\ValueBinder::attachTo() - CORE\src\Database\ValueBinder.php, line 125
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 273
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 174
+Cake\ORM\Table::_insert() - CORE\src\ORM\Table.php, line 1424
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1347
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1290
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 561
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1291
+App\Controller\BookmarksController::add() - APP/Controller\BookmarksController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 07:07:22 Notice: Notice (8): Object of class Cake\I18n\Time could not be converted to int in [E:\cakeblog\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Type\IntegerType::toDatabase() - CORE\src\Database\Type\IntegerType.php, line 40
+Cake\Database\Statement\StatementDecorator::cast() - CORE\src\Database\TypeConverterTrait.php, line 37
+Cake\Database\Statement\PDOStatement::bindValue() - CORE\src\Database\Statement\PDOStatement.php, line 70
+Cake\Database\Statement\StatementDecorator::bindValue() - CORE\src\Database\Statement\StatementDecorator.php, line 96
+Cake\Database\Log\LoggingStatement::bindValue() - CORE\src\Database\Log\LoggingStatement.php, line 96
+Cake\Database\Statement\StatementDecorator::bind() - CORE\src\Database\Statement\StatementDecorator.php, line 279
+Cake\Database\ValueBinder::attachTo() - CORE\src\Database\ValueBinder.php, line 125
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 273
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 174
+Cake\ORM\Table::_insert() - CORE\src\ORM\Table.php, line 1424
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1347
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1290
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 561
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1291
+App\Controller\BookmarksController::add() - APP/Controller\BookmarksController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 07:07:22 Notice: Notice (8): Object of class Cake\I18n\Time could not be converted to int in [E:\cakeblog\vendor\cakephp\cakephp\src\Database\Type\IntegerType.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Database\Type\IntegerType::toDatabase() - CORE\src\Database\Type\IntegerType.php, line 40
+Cake\Database\Statement\StatementDecorator::cast() - CORE\src\Database\TypeConverterTrait.php, line 37
+Cake\Database\Log\LoggingStatement::bindValue() - CORE\src\Database\Log\LoggingStatement.php, line 101
+Cake\Database\Statement\StatementDecorator::bind() - CORE\src\Database\Statement\StatementDecorator.php, line 279
+Cake\Database\ValueBinder::attachTo() - CORE\src\Database\ValueBinder.php, line 125
+Cake\Database\Connection::run() - CORE\src\Database\Connection.php, line 273
+Cake\Database\Query::execute() - CORE\src\Database\Query.php, line 174
+Cake\ORM\Table::_insert() - CORE\src\ORM\Table.php, line 1424
+Cake\ORM\Table::_processSave() - CORE\src\ORM\Table.php, line 1347
+Cake\ORM\Table::Cake\ORM\{closure}() - CORE\src\ORM\Table.php, line 1290
+Cake\Database\Connection::transactional() - CORE\src\Database\Connection.php, line 561
+Cake\ORM\Table::save() - CORE\src\ORM\Table.php, line 1291
+App\Controller\BookmarksController::add() - APP/Controller\BookmarksController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 07:07:22 Notice: Notice (8): Undefined variable: _SESSION in [E:\cakeblog\vendor\cakephp\cakephp\src\Network\Session.php, line 436]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+Cake\Network\Session::write() - CORE\src\Network\Session.php, line 436
+Cake\Controller\Component\FlashComponent::set() - CORE\src\Controller\Component\FlashComponent.php, line 99
+Cake\Controller\Component\FlashComponent::__call() - CORE\src\Controller\Component\FlashComponent.php, line 139
+Cake\Controller\Component\FlashComponent::success() - APP/Controller\BookmarksController.php, line 55
+App\Controller\BookmarksController::add() - APP/Controller\BookmarksController.php, line 55
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 405
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:15:36 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [E:\cakeblog\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 94
+Cake\Core\App::className() - CORE\src\Core\App.php, line 71
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 79
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 380
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 346
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:15:52 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [E:\cakeblog\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 94
+Cake\Core\App::className() - CORE\src\Core\App.php, line 71
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 79
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 380
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 346
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:15:52 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [E:\cakeblog\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 94
+Cake\Core\App::className() - CORE\src\Core\App.php, line 71
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 79
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 380
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 346
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:16:38 Notice: Strict (2048): Declaration of App\Controller\UsersController::beforeFilter() should be compatible with Cake\Controller\Controller::beforeFilter(Cake\Event\Event $event) in [E:\cakeblog\src\Controller\UsersController.php, line 12]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Controller\UsersController.php, line 12
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 412
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 301
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+Cake\Core\App::_classExistsInBase() - CORE\src\Core\App.php, line 94
+Cake\Core\App::className() - CORE\src\Core\App.php, line 71
+Cake\Routing\Filter\ControllerFactoryFilter::_getController() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 79
+Cake\Routing\Filter\ControllerFactoryFilter::beforeDispatch() - CORE\src\Routing\Filter\ControllerFactoryFilter.php, line 50
+Cake\Routing\DispatcherFilter::handle() - CORE\src\Routing\DispatcherFilter.php, line 145
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 380
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 346
+Cake\Routing\Dispatcher::dispatchEvent() - CORE\src\Event\EventManagerTrait.php, line 78
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 62
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:25:10 Notice: Notice (8): Undefined variable: users in [E:\cakeblog\src\Template\Bookmarks\add.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Bookmarks\add.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 576
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:28:14 Notice: Notice (8): Undefined variable: users in [E:\cakeblog\src\Template\Bookmarks\add.ctp, line 18]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Bookmarks\add.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 576
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2015-02-27 09:36:39 Notice: Notice (8): Undefined variable: users in [E:\cakeblog\src\Template\Bookmarks\edit.ctp, line 24]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Bookmarks\edit.ctp, line 24
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 815
+Cake\View\View::_render() - CORE\src\View\View.php, line 775
+Cake\View\View::render() - CORE\src\View\View.php, line 463
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 576
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
