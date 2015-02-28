@@ -8,8 +8,8 @@
 1. nginx 配置
 ````
 location / {
- root  E:/cakeblog/webroot; # 网站根目录根据自己的选定
- index  index.html index.htm index.php ;
+ root  E:/cakeblog/webroot;
+ index  index.html index.htm index.php;
  if (!-e $request_filename){
  	rewrite ^/(.*) /index.php last;
  }
