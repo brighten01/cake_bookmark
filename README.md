@@ -7,13 +7,13 @@
 # 服务器配置
 1. nginx 配置
 ````
- location / {
-            root  E:/cakeblog/webroot; # 网站根目录根据自己的选定
-            index  index.html index.htm index.php ;
-			if (!-e $request_filename){
-				rewrite ^/(.*) /index.php last;
-			}
+location / {
+ root  E:/cakeblog/webroot; # 网站根目录根据自己的选定
+ index  index.html index.htm index.php ;
+ if (!-e $request_filename){
+ 	rewrite ^/(.*) /index.php last;
  }
+}
  
  2. apache 配置
  ````
